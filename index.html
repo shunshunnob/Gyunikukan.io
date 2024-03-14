@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【肉たちのおもてなし】牛肉館</title>
+
+    <meta name="description" content="新鮮なお肉を食べ放題！家族でも御一人様でも最高の時間を過ごすなら牛肉館"/>
+    <meta name="format-detection" content="telephone=no" />
+    
+    <!-- favicon.icoファイル -->
+    <link rel="icon" href="./favicon.ico"/>
+    <!-- favicon.svgファイル -->
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <!-- web-clip-icon.pngファイル -->
+    <link rel="apple-touch-icon" href="./webclip.png" />
+    <!-- ogp -->
+    <meta property="og:site_name" content="牛肉館" />
+    <meta property="og:url" content="http://127.0.0.1:5500/LP.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="牛肉館のススメ" />
+    <meta property="og:description" content="新鮮なお肉を食べ放題！家族でも御一人様でも最高の時間を過ごすなら牛肉館"/>
+    <meta property="og:image" content="http://127.0.0.1:5500/./kv-img.png" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- <meta name="twitter:site" content="@Twitterのアカウント" /> -->
+    <meta name="twitter:description" content="新鮮なお肉を食べ放題！家族でも御一人様でも最高の時間を過ごすなら牛肉館"/>
+    <meta name="twitter:image:src" content="http://127.0.0.1:5500/./kv-img.png" />
+    
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script src="./main.js" defer></script>
+    
+    <!-- 以下は場合によって必要 -->
+    <!-- <meta name="robots" content="noindex,nofollow"> -->
+</head>
+<body>
+    <header class="header">
+        <button class="reserv-btn">
+           <a class="reserv-btn_link" href="#">
+             <div class="reserv-img-box"><img src="./calender-icon.png" alt="カレンダーアイコン" width="70" height="72"></div>
+             <p class="reserv-sub-txt">座席予約</p>
+           </a>
+        </button>
+        
+        <button class="btn-menu close-menu" id="btn-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="header-nav" id="header-nav">
+            <ul class="header-nav-list" id="header-nav-list">
+                <li class="header-nav-item" id="menu-nav"><a href="#menu">店内メニュー</a></li>
+                <li class="header-nav-item" id="seat-nav"><a href="#seat">座席のご紹介</a></li>
+                <li class="header-nav-item" id="store-info-nav"><a href="#store-info">店舗情報</a></li>
+            </ul>
+        </nav>
+        <h1 class="header-logo"><a href="#"><img src="./favicon.svg" alt="ロゴ" width="794" height="1123"></a></h1>
+    </header>
+    <div class="kv">
+        <div class="kv-copy"><img src="./kv-img.png" alt="キービジュアル" width="750" height="760"></div>
+    </div>
+    <span class="form-sepalate"></span>
+    <section class="form-section">
+        <div class="section-inner">
+        <h2 class="form-section-ttl">店舗予約・お問い合わせ</h2>
+        <p class="form-sub-ttl">時間や座席を指定して予約できます。</p>
+        <p class="form-sub-ttl">お問い合わせもこちらから。</p>
+        <div class="form-btn-list">
+            <button class="form-btn1">
+                <a href="#">
+                    <div class="form-img-box"><img src="./pushphone-icon.png" alt="受話器" width="256" height="256"></div>
+                    <p class="form-txt">お問い合わせ</p>
+                </a>
+            </button>
+            <button class="form-btn2">
+                <a href="#">
+                    <div class="form-img-box"><img src="./shop-icon.png" alt="カレンダー" width="256" height="256"></div>
+                    <p class="form-txt">店舗予約</p>
+                </a>
+            </button>
+        </div>
+    </div>
+    </section>
+    <span class="form-sepalate"></span>
+
+    <section class="in-store-menu" id="menu">
+        <div class="section-inner">
+            <h2 class="menu-section-ttl">店内メニュー</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <a href="#">
+                        <div class="menu-content">
+                            <div class="menu-img"><img src="./menu-beaf.jpg" alt="肉メニュー"></div>
+                            <div class="menu-description">
+                                <h3 class="menu-ttl-beaf">肉メニュー</h3>
+                                <p class="menu-txt-beaf">鶏肉・豚肉・牛肉等を全９８種類取り揃えております。ラム肉や鴨肉などの珍しい肉もご堪能下さい</p>
+                            </div>
+                        </div>
+                        <div class="menu-detail-beaf">
+                            <p class="menu-detail-txt">詳細を見る</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a href="#">
+                        <div class="menu-content">
+                            <div class="menu-img"><img src="./menu-kimuti.jpg" alt="キムチ"></div>
+                            <div class="menu-description">
+                                <h3 class="menu-ttl-oneitem">一品物</h3>
+                                <p class="menu-txt-oneitem">定番のキムチ等を始め食欲を掻き立てる明石焼きなどのメニューもお肉のお供としても満足いただけます。</p>
+                            </div>
+                        </div>
+                        <div class="menu-detail-oneitem">
+                            <p class="menu-detail-txt">詳細を見る</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a href="#">
+                        <div class="menu-content">
+                            <div class="menu-img"><img src="./menu-alcohol.jpg" alt="アルコール"></div>
+                            <div class="menu-description">
+                                <h3 class="menu-ttl-alcohol">デザート・<br>ドリンク</h3>
+                                
+                                <p class="menu-txt-alcohol">デザートやドリンクも豊富に取り揃えてます！ドリンクはお酒からソフトドリンクまで幅広くございます。</p>
+                            </div>
+                        </div>
+                        <div class="menu-detail-alcohol">
+                            <p class="menu-detail-txt">詳細を見る</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="seat-section" id="seat">
+        <div class="section-inner">
+        <h2 class="seat-section-ttl">座席のご紹介</h2>
+        <div class="seat-item-wrapper left">
+            <div class="seat-item">
+                <div class="seat-img-box"><img src="./box-seat.jpg" alt="ボックス席"></div>
+                <p class="seat-ttl">ボックス席</p>
+                <p class="seat-description">家族連れや大人数でお越しのお客様には最大6名様まで<br>可能なボックス席でお食事をお楽しみいただけます。</p>
+            </div>
+        </div>
+        <div class="seat-item-wrapper right">
+            <div class="seat-item">
+                <div class="seat-img-box"><img src="./counter-seat.jpg" alt="カウンター席"></div>
+                <p class="seat-ttl">カウンター席</p>
+                <p class="seat-description">1~2名でお越しのお客様にはカウンター席にて<br>ゆっくりとした時間をお過ごしいただけます。</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="store-information" id="store-info">
+        <div class="section-inner">
+            <h2 class="store-info-section-ttl">店舗情報</h2>
+        </div>    
+            <span class="form-sepalate"></span>
+        <div class="google-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12964.098147516474!2d139.72549454743333!3d35.676397817371154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c7fb0d4860d%3A0x73521e128e53de51!2z44CSMTA3LTAwNTIg5p2x5Lqs6YO95riv5Yy66LWk5Z2C77yU5LiB55uu!5e0!3m2!1sja!2sjp!4v1707697797553!5m2!1sja!2sjp" width="3000" height="1200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe></div>
+        <span class="form-sepalate bottom"></span>
+        <div class="section-inner">
+        <div class="info-wrapper">
+            <div class="info-item">
+                <p class="info-ttl">店舗名</p>
+                <p class="info-txt shop-name">牛肉館</p>
+            </div>
+            <div class="info-item">
+                <p class="info-ttl telephone-no ">ご予約<br>お問い合わせ</p>
+                <p class="info-txt telephone-no">080-0000-0000</p>
+            </div>
+            <div class="info-item">
+                <p class="info-ttl">住所</p>
+                <p class="info-txt address">〒123-4567<br>東京都港区赤坂４丁目</p>
+            </div>
+            <div class="info-item">
+                <p class="info-ttl">営業時間</p>
+                <div class="info-box">
+                <p class="info-txt business-hours">【ランチ】<br>10:00~15:00（全日）</p>
+                <p class="info-txt business-hours">【ディナー】<br>17:00~22:00（全日）</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <p class="info-ttl">決済方法</p>
+                <p class="info-txt">現金・クレジットカード</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <span class="form-sepalate"></span>
+    <section class="form-section">
+        <div class="section-inner">
+        <h2 class="form-section-ttl">店舗予約・お問い合わせ</h2>
+        <p class="form-sub-ttl">時間や座席を指定して予約できます。</p>
+        <p class="form-sub-ttl">お問い合わせもこちらから。</p>
+        <div class="form-btn-list">
+            <button class="form-btn1">
+                <a href="#">
+                    <div class="form-img-box"><img src="./pushphone-icon.png" alt="受話器" width="256" height="256"></div>
+                    <p class="form-txt">お問い合わせ</p>
+                </a>
+            </button>
+            <button class="form-btn2">
+                <a href="#">
+                    <div class="form-img-box"><img src="./shop-icon.png" alt="カレンダー" width="256" height="256"></div>
+                    <p class="form-txt">店舗予約</p>
+                </a>
+            </button>
+        </div>
+    </div>
+    </section>
+    <span class="form-sepalate"></span>
+
+</body>
+</html>
