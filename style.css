@@ -389,7 +389,7 @@ svg {
 }
 @font-face {
   font-family: "tamanegi-kaisho";
-  src: url(../fonts/tamanegi-kaisho.ttf);
+  src: url(./tamanegi-kaisho.ttf);
 }
 .form-section-ttl {
   font-size: 6.5vw;
